@@ -2,8 +2,6 @@
 	box-sizing: border-box;
 }
 
-/* Icons & Connect Section*/
-
 .icons {
 	height: 67px;
 	width: 67px;
@@ -41,10 +39,6 @@
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-
-/* End Icons & Connect Section */
-
-/* Headings & Text */
 
 .my-name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -102,11 +96,6 @@ li {
 	line-height: 150%;
 }
 
-
-/* End Headings & Text */
-
-/* Other Layout */
-
 body {
 	box-sizing: border-box;
 	background: url('../images/cotton.png');
@@ -158,9 +147,6 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 }
-/* End Other Layout */
-
-/* Portfolio Page */
 
 .image-holder {
 	position: relative;
@@ -205,10 +191,6 @@ header {
 	margin-bottom: 10px;
 }
 
-/* End Portfolio Page */
-
-/* Contact Page */
-
 label {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
@@ -246,11 +228,6 @@ button {
 	margin-top: 23px;
 }
 
-/* End Contact Page */
-
-
-/* Footer */
-
 footer {
 	background: #666666;
 	clear: both;
@@ -265,10 +242,6 @@ footer {
 	font-size: 12px;
 }
 
-/* End Footer */
-
-/* Sticky Footer */
-
 html, body {
 	height: 100%;
 }
@@ -280,17 +253,16 @@ html, body {
 #main {
 	overflow: auto;
 	padding-bottom: 150px;
-}  /* must be same height as the footer */
+} 
 
 #footer {
 	position: relative;
-    margin-top: -90px; /* negative value of footer height */
+    margin-top: -90px; 
     height: 90px;
     clear: both;
     border-top: 10px solid #4aaaa5;
 }
 
-/* Opera Fix */
 body:before {
     content:"";
     height:100%;
@@ -298,5 +270,3 @@ body:before {
     width:0;
     margin-top:-32767px;
 }
-
-/* End Sticky Footer*/
